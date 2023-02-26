@@ -1,0 +1,163 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  position: relative;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin-left: -50px;
+}
+.logo {
+  margin-right: 55.93rem;
+  margin-top: 29px;
+}
+.navbar {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+}
+
+.navbar-nav {
+  padding: 10px;
+  margin: 5px;
+}
+li {
+  padding: 20px;
+}
+.ul li {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.ul li a {
+  text-decoration: none;
+}
+.img-size {
+  background-color: #6900c7;
+  width: 100%;
+  height: 90vh;
+  background-repeat: repeat;
+}
+#main-content {
+  position: relative;
+}
+.span {
+  
+  margin-top: 219px;
+  margin-left: 48px;
+  background-color: #fff;
+  opacity: 0.8;
+  border-radius: 20px;
+  padding: 5px;
+  font-size: 15px;
+}
+.info-content {
+  color: #fff;
+  position: absolute;
+  margin-top: 256px;
+  margin-left: 49px;
+  font-size: 40px;
+}
+.ul li {
+  background-color: #0014af;
+
+  opacity: 0.8;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  padding: 20px;
+}
+a {
+  color: #fff;
+}
+.info {
+  color: #fff;
+  position: absolute;
+  margin-top: 22.75rem;
+  margin-left: 50px;
+  font-size: 20px;
+}
+.fa {
+  color: #fff;
+
+  margin-left: 46.75rem;
+  margin-top: 11.12rem;
+}
+.om {
+  margin: 20px;
+}
+
+.img{
+  width: 100%;
+  height: 80vh;
+  background-color: #6900c7;
+}
+
+
+.signup-form {
+  display: flex;
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.signup-form h2 {
+  position: relative;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  position: relative;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+hr {
+  position: relative;
+  margin: 40px 0;
+  border: none;
+}
+
+.download-btn {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #0061f2;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.download-btn:hover {
+  position: relative;
+  background-color: #003f9e;
+}
